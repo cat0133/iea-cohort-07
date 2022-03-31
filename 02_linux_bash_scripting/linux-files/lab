@@ -1,0 +1,21 @@
+#!/bin/bash
+echo $1
+if [ $# = 0 ]; then
+	echo "Please enter a filename"
+	exit 1
+fi
+for arg in "$@"; do
+	echo $arg
+       	filename=$arg
+	if [ -e $filename ];then
+		echo "Inspected by" >> filename
+	else
+		echo "File is not found"	
+		echo "Inspected by" >> filename
+	if [ -s = rm -f ]; then
+		echo "Empty file deleted"		
+	else	
+		echo "Empty file not deleted"
+fi
+
+

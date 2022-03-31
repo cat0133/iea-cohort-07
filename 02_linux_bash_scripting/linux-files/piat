@@ -2,5 +2,6 @@ tr A-Z a-z |
 tr -sc a-z '\n' |
 sort |
 uniq -c |
-sort -n |
+grep -E '\w{3}+'| 
+sort -u |
 tail

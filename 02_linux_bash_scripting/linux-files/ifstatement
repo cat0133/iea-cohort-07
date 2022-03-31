@@ -1,0 +1,6 @@
+read -p"Enter file name"
+if [-f "ifstatement"]
+then
+x = 0
+else
+   echo "File not found"
